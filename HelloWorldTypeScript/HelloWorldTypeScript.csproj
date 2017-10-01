@@ -91,6 +91,9 @@
   <ItemGroup>
     <Content Include=".eslintrc.json" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="appveyor.yml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
